@@ -1,0 +1,116 @@
+UNIX BASIC COMMANDS – NOTES
+
+1.pwd (Print Working Directory)
+This command shows the current directory you are working in.
+Example:
+pwd
+
+2.ls (List)
+This command lists files and folders in the current directory.
+ls → shows files
+ls -l → shows details like permissions, size, date
+ls -a → shows hidden files
+Example:
+ls -la
+
+3.cd (Change Directory)
+This command is used to move from one directory to another.
+cd foldername → move into folder
+cd .. → move one level back
+cd ~ → go to home directory
+
+4.mkdir (Make Directory)
+This command creates a new folder.
+Example:
+mkdir notes
+
+5.rmdir (Remove Directory)
+This command deletes an empty directory.
+Example:
+rmdir notes
+
+6.touch
+This command creates an empty file.
+Example:
+touch file1.txt
+
+7.cat (Concatenate)
+This command displays the content of a file.
+Example:
+cat file1.txt
+
+8.echo
+This command prints text or writes text into a file.
+
+overwrites the file
+
+9.appends content to the file
+
+Example:
+echo Hello World > file1.txt
+echo New Line >> file1.txt
+
+10.cp (Copy)
+This command copies files or folders.
+Example:
+cp file1.txt file2.txt
+cp -r folder1 folder2
+
+11.mv (Move / Rename)
+This command moves or renames files.
+Example:
+mv file1.txt newfile.txt
+mv file.txt foldername/
+
+12.rm (Remove)
+This command deletes files or folders.
+Example:
+rm file1.txt
+rm -r foldername
+
+13.clear
+This command clears the terminal screen.
+Example:
+clear
+
+14.man (Manual)
+This command shows the manual or help for a command.
+Example:
+man ls
+
+15.history
+This command shows previously used commands.
+Example:
+history
+
+16.whoami
+This command shows the current user name.
+Example:
+whoami
+
+17.date
+This command shows the current date and time.
+Example:
+date
+
+18.chmod (Change Mode)
+This command changes file permissions.
+Example:
+chmod 755 file1.txt
+
+19.wc (Word Count)
+This command counts lines, words, and characters in a file.
+Example:
+wc file1.txt
+
+20.head and tail
+head shows first lines of a file.
+tail shows last lines of a file.
+Example:
+head file1.txt
+tail file1.txt
+
+21.grep
+This command searches text inside a file.
+Example:
+grep hello file1.txt
